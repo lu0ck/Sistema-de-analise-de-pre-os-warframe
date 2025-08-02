@@ -17,17 +17,17 @@
     {
         "url_name": "octavia_prime_systems",
         "ducats": 0,
-        "lowest_sell_price": 6
+        "lowest_sell_price": 10
     },
     {
         "url_name": "yareli_prime_blueprint",
         "ducats": 45,
-        "lowest_sell_price": 5
+        "lowest_sell_price": 4
     },
     {
         "url_name": "yareli_prime_neuroptics_blueprint",
         "ducats": 100,
-        "lowest_sell_price": 10
+        "lowest_sell_price": 9
     },
     {
         "url_name": "yareli_prime_chassis_blueprint",
@@ -35,8 +35,1723 @@
         "lowest_sell_price": 3
     },
     {
-        "url_name": "yareli_prime_systems_blueprint",
+        "url_name": "limbo_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "limbo_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 45
+    },
+    {
+        "url_name": "limbo_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "ash_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "ash_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "ash_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "ash_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 35
+    },
+    {
+        "url_name": "atlas_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "atlas_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 50
+    },
+    {
+        "url_name": "atlas_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "atlas_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "banshee_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "banshee_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "banshee_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "banshee_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "baruuk_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 11
+    },
+    {
+        "url_name": "chroma_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "chroma_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 22
+    },
+    {
+        "url_name": "chroma_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "chroma_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "ember_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 39
+    },
+    {
+        "url_name": "ember_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 19
+    },
+    {
+        "url_name": "ember_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "ember_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "equinox_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "equinox_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "equinox_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "equinox_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 23
+    },
+    {
+        "url_name": "frost_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 43
+    },
+    {
+        "url_name": "frost_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "frost_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 11
+    },
+    {
+        "url_name": "frost_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "gara_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 23
+    },
+    {
+        "url_name": "gara_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "gara_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "gara_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "garuda_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "garuda_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "garuda_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "garuda_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 34
+    },
+    {
+        "url_name": "gauss_prime_blueprint",
+        "ducats": 25,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "grendel_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "harrow_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "harrow_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "harrow_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "harrow_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 29
+    },
+    {
+        "url_name": "hildryn_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 26
+    },
+    {
+        "url_name": "hydroid_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 19
+    },
+    {
+        "url_name": "hydroid_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "hydroid_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "hydroid_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 40
+    },
+    {
+        "url_name": "inaros_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "inaros_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 33
+    },
+    {
+        "url_name": "inaros_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "inaros_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "ivara_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "ivara_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "ivara_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 26
+    },
+    {
+        "url_name": "ivara_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "khora_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "lavos_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "loki_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "loki_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "loki_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "loki_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 26
+    },
+    {
+        "url_name": "mag_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 38
+    },
+    {
+        "url_name": "mag_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "mag_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "mag_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "mesa_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "mesa_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 29
+    },
+    {
+        "url_name": "mesa_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "mesa_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "mirage_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 35
+    },
+    {
+        "url_name": "mirage_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "mirage_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "mirage_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "nekros_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 24
+    },
+    {
+        "url_name": "nekros_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "nekros_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "nekros_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "nezha_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "nezha_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "nezha_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "nezha_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "nidus_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "nidus_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 33
+    },
+    {
+        "url_name": "nidus_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "nidus_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "nova_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "nova_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "nova_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 55
+    },
+    {
+        "url_name": "nova_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "nyx_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "nyx_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 47
+    },
+    {
+        "url_name": "nyx_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "nyx_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "oberon_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "oberon_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "oberon_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "oberon_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "protea_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "revenant_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "rhino_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 23
+    },
+    {
+        "url_name": "rhino_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "rhino_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "rhino_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "saryn_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "saryn_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "saryn_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 40
+    },
+    {
+        "url_name": "saryn_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "sevagoth_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "titania_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "titania_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "titania_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "titania_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "trinity_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "trinity_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "trinity_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "trinity_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "valkyr_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "valkyr_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "valkyr_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 50
+    },
+    {
+        "url_name": "valkyr_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "vauban_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "vauban_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "vauban_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 19
+    },
+    {
+        "url_name": "vauban_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 41
+    },
+    {
+        "url_name": "volt_prime_blueprint",
+        "ducats": 25,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "volt_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 19
+    },
+    {
+        "url_name": "volt_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "volt_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "wukong_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 23
+    },
+    {
+        "url_name": "wukong_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "wukong_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "wukong_prime_systems",
+        "ducats": 0,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "xaku_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "zephyr_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "zephyr_prime_neuroptics",
+        "ducats": 0,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "zephyr_prime_chassis",
+        "ducats": 0,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "acceltra_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "acceltra_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "acceltra_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "astilla_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "astilla_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "astilla_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "astilla_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "baza_prime_blueprint",
+        "ducats": 65,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "baza_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "baza_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "baza_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 31
+    },
+    {
+        "url_name": "boar_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 11
+    },
+    {
+        "url_name": "boar_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "boar_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "boar_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 52
+    },
+    {
+        "url_name": "boltor_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "boltor_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "boltor_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "boltor_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "braton_prime_blueprint",
+        "ducats": 25,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "braton_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "braton_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "braton_prime_stock",
+        "ducats": 25,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "burston_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "burston_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "burston_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "burston_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "cedo_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "cedo_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "cedo_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "cedo_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "cernos_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "corinth_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "corinth_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 22
+    },
+    {
+        "url_name": "corinth_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "corinth_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 12
+    },
+    {
+        "url_name": "daikyu_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "daikyu_prime_grip",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "daikyu_prime_lower_limb",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "daikyu_prime_string",
+        "ducats": 15,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "daikyu_prime_upper_limb",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "fulmin_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "fulmin_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "fulmin_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "fulmin_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "latron_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 29
+    },
+    {
+        "url_name": "latron_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 17
+    },
+    {
+        "url_name": "latron_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "latron_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "paris_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "rubico_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 22
+    },
+    {
+        "url_name": "rubico_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "rubico_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "rubico_prime_barrel",
+        "ducats": 25,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "soma_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "soma_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "soma_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 12
+    },
+    {
+        "url_name": "soma_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 44
+    },
+    {
+        "url_name": "stradavar_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "stradavar_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "stradavar_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "stradavar_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "strun_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "strun_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "strun_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "strun_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "sybaris_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "sybaris_prime_barrel",
         "ducats": 100,
         "lowest_sell_price": 28
+    },
+    {
+        "url_name": "sybaris_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "sybaris_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "tenora_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "tenora_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "tenora_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 24
+    },
+    {
+        "url_name": "tenora_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "tiberon_prime_blueprint",
+        "ducats": 25,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "tiberon_prime_barrel",
+        "ducats": 65,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "tiberon_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "tiberon_prime_stock",
+        "ducats": 100,
+        "lowest_sell_price": 16
+    },
+    {
+        "url_name": "tigris_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "tigris_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "tigris_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "tigris_prime_stock",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "trumna_prime_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "trumna_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "trumna_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "trumna_prime_stock",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "zhuge_prime_blueprint",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "zhuge_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 12
+    },
+    {
+        "url_name": "zhuge_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "afuris_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "afuris_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "akarius_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "akarius_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "akbolto_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "akbolto_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "akjagara_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "akjagara_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "aksomati_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "aksomati_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "akstiletto_prime_barrel",
+        "ducats": 25,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "akstiletto_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "ballistica_prime_upper_limb",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "ballistica_prime_lower_limb",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "bronco_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "bronco_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "epitaph_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "epitaph_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "euphona_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "euphona_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "hikou_prime_pouch",
+        "ducats": 15,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "hystrix_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "hystrix_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "knell_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "knell_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "kompressa_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "lex_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "lex_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "magnus_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 23
+    },
+    {
+        "url_name": "magnus_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "pandero_prime_barrel",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "pandero_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "pyrana_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "pyrana_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "quassus_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "quassus_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "sicarus_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 12
+    },
+    {
+        "url_name": "sicarus_prime_receiver",
+        "ducats": 100,
+        "lowest_sell_price": 28
+    },
+    {
+        "url_name": "spira_prime_blade",
+        "ducats": 65,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "vasto_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "vasto_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "velox_prime_barrel",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "velox_prime_receiver",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "zylok_prime_barrel",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "zylok_prime_receiver",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "ankyros_prime_gauntlet",
+        "ducats": 15,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "ankyros_prime_blade",
+        "ducats": 65,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "dakra_prime_blade",
+        "ducats": 65,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "dakra_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "destreza_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 45
+    },
+    {
+        "url_name": "destreza_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "dual_kamas_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 40
+    },
+    {
+        "url_name": "dual_kamas_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "dual_zoren_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "dual_zoren_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "fang_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "fang_prime_handle",
+        "ducats": 25,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "fragor_prime_head",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "fragor_prime_handle",
+        "ducats": 65,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "galatine_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "galatine_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "glaive_prime_blade",
+        "ducats": 45,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "glaive_prime_disc",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "gram_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "gram_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "guandao_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "guandao_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 17
+    },
+    {
+        "url_name": "gunsen_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "gunsen_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "karyst_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "karyst_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "kogake_prime_gauntlet",
+        "ducats": 100,
+        "lowest_sell_price": 17
+    },
+    {
+        "url_name": "kogake_prime_boot",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "kronen_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 33
+    },
+    {
+        "url_name": "kronen_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 7
+    },
+    {
+        "url_name": "masseter_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "masseter_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "nami_skyla_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 32
+    },
+    {
+        "url_name": "nami_skyla_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "nikana_prime_blade",
+        "ducats": 65,
+        "lowest_sell_price": 25
+    },
+    {
+        "url_name": "nikana_prime_hilt",
+        "ducats": 100,
+        "lowest_sell_price": 40
+    },
+    {
+        "url_name": "ninkondi_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 18
+    },
+    {
+        "url_name": "okina_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "okina_prime_handle",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "orthos_prime_blade",
+        "ducats": 45,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "orthos_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "pangolin_prime_blade",
+        "ducats": 45,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "pangolin_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "reaper_prime_blade",
+        "ducats": 45,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "reaper_prime_handle",
+        "ducats": 15,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "redeemer_prime_blade",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "redeemer_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "scindo_prime_blade",
+        "ducats": 100,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "scindo_prime_handle",
+        "ducats": 25,
+        "lowest_sell_price": 8
+    },
+    {
+        "url_name": "tatsu_prime_blade",
+        "ducats": 45,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "tatsu_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 13
+    },
+    {
+        "url_name": "tekko_prime_gauntlet",
+        "ducats": 15,
+        "lowest_sell_price": 6
+    },
+    {
+        "url_name": "tipedo_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 19
+    },
+    {
+        "url_name": "tipedo_prime_ornament",
+        "ducats": 45,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "venka_prime_gauntlet",
+        "ducats": 100,
+        "lowest_sell_price": 35
+    },
+    {
+        "url_name": "volnus_prime_head",
+        "ducats": 45,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "volnus_prime_handle",
+        "ducats": 100,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "carrier_prime_cerebrum",
+        "ducats": 65,
+        "lowest_sell_price": 31
+    },
+    {
+        "url_name": "carrier_prime_carapace",
+        "ducats": 15,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "dethcube_prime_cerebrum",
+        "ducats": 65,
+        "lowest_sell_price": 35
+    },
+    {
+        "url_name": "dethcube_prime_carapace",
+        "ducats": 45,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "helios_prime_cerebrum",
+        "ducats": 100,
+        "lowest_sell_price": 30
+    },
+    {
+        "url_name": "helios_prime_carapace",
+        "ducats": 15,
+        "lowest_sell_price": 4
+    },
+    {
+        "url_name": "nautilus_prime_cerebrum",
+        "ducats": 100,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "nautilus_prime_carapace",
+        "ducats": 15,
+        "lowest_sell_price": 1
+    },
+    {
+        "url_name": "shade_prime_cerebrum",
+        "ducats": 15,
+        "lowest_sell_price": 2
+    },
+    {
+        "url_name": "shade_prime_carapace",
+        "ducats": 100,
+        "lowest_sell_price": 15
+    },
+    {
+        "url_name": "wyrm_prime_cerebrum",
+        "ducats": 15,
+        "lowest_sell_price": 20
+    },
+    {
+        "url_name": "wyrm_prime_carapace",
+        "ducats": 15,
+        "lowest_sell_price": 14
+    },
+    {
+        "url_name": "wyrm_prime_systems",
+        "ducats": 45,
+        "lowest_sell_price": 30
     }
 ]
