@@ -2,26 +2,41 @@
     {
         "url_name": "octavia_prime_blueprint",
         "ducats": 100,
-        "lowest_sell_price": 49
+        "lowest_sell_price": 50
     },
     {
         "url_name": "octavia_prime_neuroptics",
-        "ducats": 100,
+        "ducats": 0,
         "lowest_sell_price": 5
     },
     {
         "url_name": "octavia_prime_chassis",
-        "ducats": 100,
+        "ducats": 0,
         "lowest_sell_price": 9
     },
     {
         "url_name": "octavia_prime_systems",
-        "ducats": 100,
-        "lowest_sell_price": 5
+        "ducats": 0,
+        "lowest_sell_price": 6
     },
     {
         "url_name": "yareli_prime_blueprint",
-        "ducats": 260,
+        "ducats": 45,
         "lowest_sell_price": 5
+    },
+    {
+        "url_name": "yareli_prime_neuroptics_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 10
+    },
+    {
+        "url_name": "yareli_prime_chassis_blueprint",
+        "ducats": 15,
+        "lowest_sell_price": 3
+    },
+    {
+        "url_name": "yareli_prime_systems_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 28
     }
 ]
