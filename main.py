@@ -1,42 +1,48 @@
-#importando bibliotecas para o projeto
-import os #para manipular arquivos e diretórios
-import pywmapi #API do Warframe Market
-import time #dalays
-import json #json para salvar os dados
+# Importando bibliotecas para o projeto
+import os  # Para manipular arquivos e diretórios
+import requests  # Para chamadas HTTP à API
+import time  # Para delays
+import json  # Para salvar os dados em JSON
 
-#Inicializar o cliente da API
-wm = pywmapi.WarframeMarket()
+# URL base da API do Warframe Market
+BASE_URL = "https://api.warframe.market/v1"
 
 # Lista de itens
-item_list = ['octavia_prime_blueprint', 'octavia_prime_neuroptics', 'octavia_prime_chassis', 'octavia_prime_systems', 'yareli_prime_blueprint',
-'yareli_prime_neuroptics', 'yareli_prime_chassis', 'yareli_prime_systems',
+item_list = [
+    'octavia_prime_blueprint', 'octavia_prime_neuroptics', 'octavia_prime_chassis', 'octavia_prime_systems',
+    'yareli_prime_blueprint', 'yareli_prime_neuroptics', 'yareli_prime_chassis', 'yareli_prime_systems'
 ]
 
-#Lista para armazenar os itens que já foram verificados
-data= []
+# Lista para armazenar os dados coletados
+data = []
 
-#Loop para verificar os itens
+# Loop para processar cada item
 for url_name in item_list:
     try:
-        #Obter infromaçao do item
-        item_info = wm.items.get_item(url_name)
-        # Extrair o valor em ducats (pode ser None se não existir)
-        ducats = item_info['payload']['item'].get('ducats', 0)
+        # Obtem informações do item para ducats
+        item_url = f"{BASE_URL}/items/{url_name}"
+        response = requests.get(item_url)
+        response.raise_for_status()  # Levanta erro para códigos HTTP 4xx/5xx
+        item_data = response.json()
+        ducats = item_data['payload']['item']['items_in_set'][0].get('ducats', 0)
 
-        # Atraso para respeitar o limite de taxa da API
-        time.sleep(0.4)
+        # Atraso para respeitar o limite de taxa da API (3 chamadas por segundo)
+        time.sleep(0.333)
 
         # Obter ordens do item
-        orders = wm.items.get_orders(url_name)
-
-        # Filtrar ordens de venda
-        sell_orders = [order for order in orders['payload']['orders'] if order['order_type'] == 'sell']
+        orders_url = f"{BASE_URL}/items/{url_name}/orders"
+        response = requests.get(orders_url)
+        response.raise_for_status()
+        orders_data = response.json()
+        
+        # Filtrar ordens de venda de jogadores online
+        sell_orders = [
+            order for order in orders_data['payload']['orders']
+            if order['order_type'] == 'sell' and order['user']['status'] == 'ingame'
+        ]
 
         # Encontrar o preço mais baixo em platina
-        if sell_orders:
-            lowest_price = min(order['platinum'] for order in sell_orders)
-        else:
-            lowest_price = None
+        lowest_price = min(order['platinum'] for order in sell_orders) if sell_orders else None
 
         # Armazenar os dados do item
         data.append({
@@ -45,16 +51,14 @@ for url_name in item_list:
             'lowest_sell_price': lowest_price
         })
 
-        # Atraso adicional para garantir que não excederei o limite de chamadas
-        time.sleep(0.4)
+        # Atraso adicional para respeitar o limite de taxa
+        time.sleep(0.333)
 
-    #exceção para erros de requisição
     except Exception as e:
         print(f"Erro ao processar o item {url_name}: {e}")
         continue
 
-# Agora 'data' contém todos os dados coletados
-# Salvar em um arquivo JSON
+# Salvar os dados em um arquivo JSON
 with open('warframe_data.json', 'w') as f:
     json.dump(data, f, indent=4)
 
