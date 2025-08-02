@@ -1,0 +1,27 @@
+[
+    {
+        "url_name": "octavia_prime_blueprint",
+        "ducats": 100,
+        "lowest_sell_price": 49
+    },
+    {
+        "url_name": "octavia_prime_neuroptics",
+        "ducats": 100,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "octavia_prime_chassis",
+        "ducats": 100,
+        "lowest_sell_price": 9
+    },
+    {
+        "url_name": "octavia_prime_systems",
+        "ducats": 100,
+        "lowest_sell_price": 5
+    },
+    {
+        "url_name": "yareli_prime_blueprint",
+        "ducats": 260,
+        "lowest_sell_price": 5
+    }
+]
