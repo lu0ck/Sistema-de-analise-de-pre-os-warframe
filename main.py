@@ -60,15 +60,15 @@ item_list = [
     'boar_prime_blueprint', 'boar_prime_barrel','boar_prime_receiver', 'boar_prime_stock', 
     'boltor_prime_blueprint', 'boltor_prime_barrel','boltor_prime_receiver', 'boltor_prime_stock', 
     'braton_prime_blueprint', 'braton_prime_barrel','braton_prime_receiver', 'braton_prime_stock', 
-    'burston_prime_blueprint', 'burston_prime_barrel','burston_prime_receiver', 'burston_prime_stock', 
+    'burston_prime_blueprint', 'burston_prime_barrel','burston_prime_receiver', 'burston_prime_stock',
     'cedo_prime_blueprint', 'cedo_prime_barrel','cedo_prime_receiver', 'cedo_prime_stock', 
-    'cernos_prime_blueprint', 'cernos_grip','cernos_lower_limb', 'cernos_string', 'cernos_upper_limb', 
+    'cernos_prime_blueprint', 'cernos_prime_lower_limb','cernos_prime_upper_limb','cernos_prime_grip','cernos_prime_string','rakta_cernos',
     'corinth_prime_blueprint','corinth_prime_barrel', 'corinth_prime_receiver', 'corinth_prime_stock', 
     'daikyu_prime_blueprint','daikyu_prime_grip', 'daikyu_prime_lower_limb', 'daikyu_prime_string', 'daikyu_prime_upper_limb',
     'fulmin_prime_blueprint', 'fulmin_prime_barrel', 'fulmin_prime_receiver', 'fulmin_prime_stock',
-    'gotva_prime_blueprint', 'gotva_prime_barrel', 'gotva_prime_receiver', 'gotva_prime_stock',
+    'gotva_prime',
     'latron_prime_blueprint', 'latron_prime_barrel', 'latron_prime_receiver', 'latron_prime_stock',
-    'paris_prime_blueprint', 'paris_grip', 'paris_lower_limb', 'paris_string', 'paris_upper_limb',
+    'paris_prime_blueprint', 'paris_prime_grip', 'paris_prime_string', 'paris_prime_upper_limb', 
     'rubico_prime_blueprint', 'rubico_prime_stock', 'rubico_prime_receiver', 'rubico_prime_barrel',
     'soma_prime_blueprint', 'soma_prime_barrel', 'soma_prime_receiver', 'soma_prime_stock',
     'stradavar_prime_blueprint', 'stradavar_prime_barrel', 'stradavar_prime_receiver',
@@ -82,61 +82,61 @@ item_list = [
     'afuris_prime_blueprint', 'afuris_prime_barrel', 'afuris_prime_receiver', 'afuris_prime_link',
     'akarius_prime_blueprint', 'akarius_prime_barrel', 'akarius_prime_receiver', 'akarius_prime_link',
     'akbolto_prime_blueprint', 'akbolto_prime_barrel', 'akbolto_prime_receiver', 'akbolto_prime_link',
-    'akbronco_prime_blueprint', 'akbronco_prime_barrel', 'akbronco_prime_receiver', 'akbronco_prime_link',
+    'akbronco_prime_link', 'akbronco_prime_blueprint',
     'akjagara_prime_blueprint', 'akjagara_prime_barrel', 'akjagara_prime_receiver', 'akjagara_prime_link',
-    'aklex_prime_blueprint', 'aklex_prime_barrel', 'aklex_prime_receiver', 'aklex_prime_link',
-    'akmagnus_prime_blueprint', 'akmagnus_prime_barrel', 'akmagnus_prime_receiver', 'akmagnus_prime_link',
+    'aklex_prime_blueprint', 'aklex_prime_link',
+    'akmagnus_prime_blueprint', 'akmagnus_prime_link'
     'aksomati_prime_blueprint', 'aksomati_prime_barrel', 'aksomati_prime_receiver', 'aksomati_prime_link',
     'akstiletto_prime_blueprint', 'akstiletto_prime_barrel', 'akstiletto_prime_receiver', 'akstiletto_prime_link',
-    'akvasto_prime_blueprint', 'akvasto_prime_barrel', 'akvasto_prime_receiver', 'akvasto_prime_stock',
+    'akvasto_prime_blueprint', 'akvasto_prime_link'
     'ballistica_prime_blueprint', 'ballistica_prime_upper_limb', 'ballistica_prime_lower_limb', 'ballistica_prime_string',
-    'bronco_prime_blueprint', 'bronco_prime_barrel', 'bronco_prime_receiver', 'bronco_prime_stock'
-    'burst_laser_prime_blueprint', 'burst_laser_prime_barrel', 'burst_laser_prime_receiver', 'burst_laser_prime_stock',
+    'bronco_prime_barrel', 'bronco_prime_blueprint', 'bronco_prime_receiver',
+    'measured_burst', 'entropy_burst',
     'epitaph_prime_blueprint', 'epitaph_prime_barrel', 'epitaph_prime_receiver', 'epitaph_prime_stock',
     'euphona_prime_blueprint', 'euphona_prime_barrel', 'euphona_prime_receiver', 'euphona_prime_stock',
     'hikou_prime_blueprint', 'hikou_prime_pouch', 'hikou_prime_stars',
-    'hystrix_prime_blueprint', 'hystrix_prime_barrel', 'hystrix_prime_receiver', 'hystrix_prime_stock',
-    'knell_prime_blueprint', 'knell_prime_barrel', 'knell_prime_receiver', 'knell_prime_stock',
-    'kompressa_prime_blueprint', 'kompressa_prime_barrel', 'kompressa_prime_receiver', 'kompressa_prime_stock',
+    'hystrix_prime_blueprint', 'hystrix_prime_receiver', 'hystrix_prime_barrel',
+    'knell_prime_barrel', 'knell_prime_blueprint', 'knell_prime_receiver',
+    'kompressa_prime_blueprint', 'kompressa_prime_barrel', 'kompressa_prime_reciever',
     'lex_prime_blueprint', 'lex_prime_barrel', 'lex_prime_receiver', 'lex_prime_stock',
-    'magnus_prime_blueprint', 'magnus_prime_barrel', 'magnus_prime_receiver', 'magnus_prime_stock',
-    'pandero_prime_blueprint', 'pandero_prime_barrel', 'pandero_prime_receiver', 'pandero_prime_stock',
-    'pyrana_prime_blueprint', 'pyrana_prime_barrel', 'pyrana_prime_receiver', 'pyrana_prime_stock',
-    'quassus_prime_blueprint', 'quassus_prime_blade', 'quassus_prime_handle', 'quassus_prime_ornament',
-    'sicarus_prime_blueprint', 'sicarus_prime_barrel', 'sicarus_prime_receiver', 'sicarus_prime_stock',
+    'magnus_prime_blueprint', 'magnus_prime_receiver', 'magnus_prime_barrel',
+    'pandero_prime_barrel', 'pandero_prime_receiver', 'pandero_prime_blueprint'
+    'pyrana_prime_blueprint', 'pyrana_prime_receiver', 'pyrana_prime_barrel',
+    'quassus_prime_blueprint', 'quassus_prime_handle', 'quassus_prime_blade',
+    'sicarus_prime_barrel', 'sicarus_prime_receiver', 'sicarus_prime_blueprint',
     'spira_prime_blueprint', 'spira_prime_blade', 'spira_prime_pouch',
-    'vasto_prime_blueprint', 'vasto_prime_barrel', 'vasto_prime_receiver', 'vasto_prime_stock',
-    'velox_prime_blueprint', 'velox_prime_barrel', 'velox_prime_receiver', 'velox_prime_stock',
-    'zylok_prime_blueprint', 'zylok_prime_barrel', 'zylok_prime_receiver', 'zylok_prime_stock',
+    'vasto_prime_barrel', 'vasto_prime_blueprint', 'vasto_prime_receiver',
+    'velox_set', 'velox_receiver', 'velox_barrel', 'velox_prime_blueprint', 'velox_prime_barrel', 'velox_prime_receiver',
+    'zylok_prime_blueprint', 'zylok_prime_barrel', 'zylok_prime_receiver',
     'ankyros_prime_blueprint', 'ankyros_prime_gauntlet', 'ankyros_prime_blade', 'ankyros_prime_handle',
     'cobra_crane_prime_blueprint', 'cobra_crane_prime_blade', 'cobra_crane_prime_handle', 'cobra_crane_prime_ornament',
-    'dakra_prime_blueprint', 'dakra_prime_blade', 'dakra_prime_handle', 'dakra_prime_guard',
-    'destreza_prime_blueprint', 'destreza_prime_blade', 'destreza_prime_handle', 'destreza_prime_guard',
-    'dual_kamas_prime_blueprint', 'dual_kamas_prime_blade', 'dual_kamas_prime_handle', 'dual_kamas_prime_link',
-    'dual_zoren_prime_blueprint', 'dual_zoren_prime_blade', 'dual_zoren_prime_handle', 'dual_zoren_prime_axe',
-    'fang_prime_blueprint', 'fang_prime_blade', 'fang_prime_handle', 'fang_prime_point',
-    'fragor_prime_blueprint', 'fragor_prime_head', 'fragor_prime_handle', 'fragor_prime_grip',
+    'dakra_prime_handle', 'dakra_prime_blade', 'dakra_prime_blueprint',
+    'destreza_prime_handle', 'destreza_prime_blade', 'destreza_prime_blueprint',
+    'dual_kamas_prime_blueprint', 'dual_kamas_prime_handle', 'dual_kamas_prime_blade',
+    'dual_zoren_prime_blueprint', 'dual_zoren_prime_handle', 'dual_zoren_prime_blade',
+    'fang_prime_handle', 'fang_prime_blade', 'fang_prime_blueprint',
+    'fragor_prime_head', 'fragor_prime_blueprint', 'fragor_prime_handle',
     'galatine_prime_blueprint', 'galatine_prime_blade', 'galatine_prime_handle', 'galatine_prime_guard',
-    'glaive_prime_blueprint', 'glaive_prime_blade', 'glaive_prime_disc', 'glaive_prime_handle',
-    'gram_prime_blueprint', 'gram_prime_blade', 'gram_prime_handle', 'gram_prime_hilt',
-    'guandao_prime_blueprint', 'guandao_prime_blade', 'guandao_prime_handle', 'guandao_prime_grip',
-    'gunsen_prime_blueprint', 'gunsen_prime_blade', 'gunsen_prime_handle', 'gunsen_prime_ribs',
-    'karyst_prime_blueprint', 'karyst_prime_blade', 'karyst_prime_handle', 'karyst_prime_guard',
-    'kogake_prime_blueprint', 'kogake_prime_gauntlet', 'kogake_prime_boot', 'kogake_prime_link',
-    'kronen_prime_blueprint', 'kronen_prime_blade', 'kronen_prime_handle', 'kronen_prime_link',
-    'masseter_prime_blueprint', 'masseter_prime_blade', 'masseter_prime_handle', 'masseter_prime_guard',
-    'nami_skyla_prime_blueprint', 'nami_skyla_prime_blade', 'nami_skyla_prime_handle', 'nami_skyla_prime_link',
-    'nikana_prime_blueprint', 'nikana_prime_blade', 'nikana_prime_hilt', 'nikana_prime_scabbard',
-    'ninkondi_prime_blueprint', 'ninkondi_prime_blade', 'ninkondi_prime_handle', 'ninkondi_prime_chain',
-    'okina_prime_blueprint', 'okina_prime_blade', 'okina_prime_handle', 'okina_prime_sheath',
-    'orthos_prime_blueprint', 'orthos_prime_blade', 'orthos_prime_handle', 'orthos_prime_haft',
-    'pangolin_prime_blueprint', 'pangolin_prime_blade', 'pangolin_prime_handle', 'pangolin_prime_guard',
-    'reaper_prime_blueprint', 'reaper_prime_blade', 'reaper_prime_handle', 'reaper_prime_scythe',
-    'redeemer_prime_blueprint', 'redeemer_prime_blade', 'redeemer_prime_handle', 'redeemer_prime_guard',
-    'scindo_prime_blueprint', 'scindo_prime_blade', 'scindo_prime_handle', 'scindo_prime_axe',
+    'glaive_prime_blade', 'glaive_prime_disc', 'glaive_prime_blueprint',
+    'gram_prime_handle', 'gram_prime_blueprint', 'gram_prime_blade',
+    'guandao_prime_blueprint', 'guandao_prime_blade', 'guandao_prime_handle',
+    'gunsen_prime_blueprint', 'gunsen_prime_handle', 'gunsen_prime_blade',
+    'karyst_prime_handle', 'karyst_prime_blueprint', 'karyst_prime_blade',
+    'kogake_prime_gauntlet', 'kogake_prime_boot', 'kogake_prime_blueprint',
+    'kronen_prime_handle', 'kronen_prime_blueprint', 'kronen_prime_blade',
+    'masseter_prime_blueprint', 'masseter_prime_blade', 'masseter_prime_handle',
+    'nami_skyla_prime_handle', 'nami_skyla_prime_blade', 'nami_skyla_prime_blueprint',
+    'nikana_prime_hilt', 'nikana_prime_blueprint', 'nikana_prime_blade',
+    'ninkondi_prime_chain', 'ninkondi_prime_blueprint', 'ninkondi_prime_handle',
+    'okina_prime_blueprint', 'okina_prime_handle', 'okina_prime_blade',
+    'orthos_prime_blade', 'orthos_prime_blueprint', 'orthos_prime_handle',
+    'pangolin_prime_blade', 'pangolin_prime_handle', 'pangolin_prime_blueprint',
+    'reaper_prime_blueprint', 'reaper_prime_blade', 'reaper_prime_handle',
+    'redeemer_prime_blade', 'redeemer_prime_blueprint', 'redeemer_prime_handle',
+    'scindo_prime_handle', 'scindo_prime_blueprint', 'scindo_prime_blade',
     'silva_aegis_prime_blueprint', 'silva_aegis_prime_blade', 'silva_aegis_prime_hilt', 'silva_aegis_prime_shield',
-    'tatsu_prime_blueprint', 'tatsu_prime_blade', 'tatsu_prime_handle', 'tatsu_prime_scabbard',
-    'tekko_prime_blueprint', 'tekko_prime_gauntlet', 'tekko_prime_knuckles', 'tekko_prime_plate',
+    'tatsu_prime_blade', 'tatsu_prime_blueprint', 'tatsu_prime_handle'
+    'tekko_prime_gauntlet', 'tekko_prime_blade', 'tekko_prime_blueprint'
     'tipedo_prime_blueprint', 'tipedo_prime_handle', 'tipedo_prime_ornament', 'tipedo_prime_blade',
     'venka_prime_blueprint', 'venka_prime_gauntlet', 'venka_prime_claws', 'venka_prime_link',
     'volnus_prime_blueprint', 'volnus_prime_head', 'volnus_prime_handle', 'volnus_prime_grip',
@@ -146,11 +146,40 @@ item_list = [
     'nautilus_prime_blueprint', 'nautilus_prime_cerebrum', 'nautilus_prime_carapace', 'nautilus_prime_systems',
     'shade_prime_blueprint', 'shade_prime_cerebrum', 'shade_prime_carapace', 'shade_prime_systems',
     'wyrm_prime_blueprint', 'wyrm_prime_cerebrum', 'wyrm_prime_carapace', 'wyrm_prime_systems',
+    
 ]
 
 response = requests.get("https://api.warframe.market/v1/items")
 items = response.json()['payload']['items']
-print([item['url_name'] for item in items if 'cernos' in item['url_name']])
+print([item['url_name'] for item in items if 'cobra_crane' in item['url_name']])
+print([item['url_name'] for item in items if 'dakra' in item['url_name']])
+print([item['url_name'] for item in items if 'destreza' in item['url_name']])
+print([item['url_name'] for item in items if 'dual_kamas' in item['url_name']])
+print([item['url_name'] for item in items if 'dual_zoren' in item['url_name']])
+print([item['url_name'] for item in items if 'fang' in item['url_name']])
+print([item['url_name'] for item in items if 'fragor' in item['url_name']])
+print([item['url_name'] for item in items if 'galantine' in item['url_name']])
+print([item['url_name'] for item in items if 'glaive' in item['url_name']])
+print([item['url_name'] for item in items if 'gram' in item['url_name']])
+print([item['url_name'] for item in items if 'guandao' in item['url_name']])
+print([item['url_name'] for item in items if 'gunsen' in item['url_name']])
+print([item['url_name'] for item in items if 'karyst' in item['url_name']])
+print([item['url_name'] for item in items if 'kogake' in item['url_name']])
+print([item['url_name'] for item in items if 'kronen' in item['url_name']])
+print([item['url_name'] for item in items if 'masseter' in item['url_name']])
+print([item['url_name'] for item in items if 'nami_skyla' in item['url_name']])
+print([item['url_name'] for item in items if 'nikana' in item['url_name']])
+print([item['url_name'] for item in items if 'ninkondi' in item['url_name']])
+print([item['url_name'] for item in items if 'okina' in item['url_name']])
+print([item['url_name'] for item in items if 'orthos' in item['url_name']])
+print([item['url_name'] for item in items if 'pangolin' in item['url_name']])
+print([item['url_name'] for item in items if 'reaper' in item['url_name']])
+print([item['url_name'] for item in items if 'redeemer' in item['url_name']])
+print([item['url_name'] for item in items if 'scindo' in item['url_name']])
+print([item['url_name'] for item in items if 'silva_aegis' in item['url_name']])
+print([item['url_name'] for item in items if 'tatsu' in item['url_name']])
+print([item['url_name'] for item in items if 'tekko' in item['url_name']])
+
 
 # Lista para armazenar os dados coletados
 data = []
