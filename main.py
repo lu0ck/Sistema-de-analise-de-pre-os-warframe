@@ -148,37 +148,11 @@ item_list = [
     'wyrm_prime_blueprint', 'wyrm_prime_cerebrum', 'wyrm_prime_carapace', 'wyrm_prime_systems',
     
 ]
-
+""" para busca exata de nome de item
 response = requests.get("https://api.warframe.market/v1/items")
 items = response.json()['payload']['items']
 print([item['url_name'] for item in items if 'cobra_crane' in item['url_name']])
-print([item['url_name'] for item in items if 'dakra' in item['url_name']])
-print([item['url_name'] for item in items if 'destreza' in item['url_name']])
-print([item['url_name'] for item in items if 'dual_kamas' in item['url_name']])
-print([item['url_name'] for item in items if 'dual_zoren' in item['url_name']])
-print([item['url_name'] for item in items if 'fang' in item['url_name']])
-print([item['url_name'] for item in items if 'fragor' in item['url_name']])
-print([item['url_name'] for item in items if 'galantine' in item['url_name']])
-print([item['url_name'] for item in items if 'glaive' in item['url_name']])
-print([item['url_name'] for item in items if 'gram' in item['url_name']])
-print([item['url_name'] for item in items if 'guandao' in item['url_name']])
-print([item['url_name'] for item in items if 'gunsen' in item['url_name']])
-print([item['url_name'] for item in items if 'karyst' in item['url_name']])
-print([item['url_name'] for item in items if 'kogake' in item['url_name']])
-print([item['url_name'] for item in items if 'kronen' in item['url_name']])
-print([item['url_name'] for item in items if 'masseter' in item['url_name']])
-print([item['url_name'] for item in items if 'nami_skyla' in item['url_name']])
-print([item['url_name'] for item in items if 'nikana' in item['url_name']])
-print([item['url_name'] for item in items if 'ninkondi' in item['url_name']])
-print([item['url_name'] for item in items if 'okina' in item['url_name']])
-print([item['url_name'] for item in items if 'orthos' in item['url_name']])
-print([item['url_name'] for item in items if 'pangolin' in item['url_name']])
-print([item['url_name'] for item in items if 'reaper' in item['url_name']])
-print([item['url_name'] for item in items if 'redeemer' in item['url_name']])
-print([item['url_name'] for item in items if 'scindo' in item['url_name']])
-print([item['url_name'] for item in items if 'silva_aegis' in item['url_name']])
-print([item['url_name'] for item in items if 'tatsu' in item['url_name']])
-print([item['url_name'] for item in items if 'tekko' in item['url_name']])
+"""
 
 
 # Lista para armazenar os dados coletados
