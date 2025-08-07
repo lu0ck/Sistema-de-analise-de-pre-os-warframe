@@ -3,6 +3,23 @@ import os  # Para manipular arquivos e diretórios
 import requests  # Para chamadas HTTP à API
 import time  # Para delays
 import json  # Para salvar os dados em JSON
+import cv2
+import pytesseract
+import json
+import mss
+import numpy as np
+from datetime import datetime
+import time
+from zoneinfo import ZoneInfo as timezone
+
+
+# Configuração do Tesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Users\01\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+os.environ["TESSDATA_PREFIX"] = r"C:\Users\01\AppData\Local\Programs\Tesseract-OCR\tessdata"
+
+# Define a região para capturar a tela inteira
+sct = mss.mss()
+monitor = sct.monitors[1]  # Captura o monitor principal
 
 # URL base da API do Warframe Market
 BASE_URL = "https://api.warframe.market/v1"
@@ -786,65 +803,85 @@ print([item['url_name'] for item in items if 'cobra_crane' in item['url_name']])
 # Lista para armazenar os dados coletados
 data = []
 
-# Loop para processar cada item
-for url_name in item_list:
-    try:
-        # Obter informações do item (para ducats)
-        item_url = f"{BASE_URL}/items/{url_name}"
-        response = requests.get(item_url)
-        response.raise_for_status()
-        item_data = response.json()
+def update_warframe_data():
+    # Verifica se é meio-dia (12:00) no horário de Brasília
+    current_time = datetime.now().astimezone(timezone('America/Sao_Paulo'))
+    if current_time.hour == 12 and current_time.minute == 0:
+        print("Atualizando dados do Warframe Market às 12:00...")  
+        for url_name in item_list:
+            try:
+                item_url = f"{BASE_URL}/items/{url_name}"
+                response = requests.get(item_url)
+                response.raise_for_status()
+                item_data = response.json()
+                for set_item in item_data['payload']['item']['items_in_set']:
+                    if set_item['url_name'] == url_name:
+                        ducats = set_item.get('ducats', 0)
+                        break
+                else:
+                    ducats = 0
+                time.sleep(0.333)
 
-        # Encontrar o item correto em items_in_set
-        api_ducats = 0
-        for set_item in item_data['payload']['item']['items_in_set']:
-            if set_item['url_name'] == url_name:
-                api_ducats = set_item.get('ducats', 0)
-                break
+                orders_url = f"{BASE_URL}/items/{url_name}/orders"
+                response = requests.get(orders_url)
+                response.raise_for_status()
+                orders_data = response.json()
+                sell_orders = [
+                    order for order in orders_data['payload']['orders']
+                    if order['order_type'] == 'sell' and order['user']['status'] == 'ingame'
+                ]
+                lowest_price = min(order['platinum'] for order in sell_orders) if sell_orders else None
+                time.sleep(0.333)
 
-        # Usar o dicionário estático como referência principal
-        ducats = DUCATS_REFERENCE.get(url_name, api_ducats)
+                data.append({
+                    'url_name': url_name,
+                    'ducats': ducats,
+                    'lowest_sell_price': lowest_price
+                })
+            except Exception as e:
+                print(f"Erro ao processar {url_name}: {e}")
+                continue
 
-        # Log para depuração, comparando API com referência
-        if api_ducats != ducats:
-            print(f"Discrepância em {url_name}: API={api_ducats}, Referência={ducats}")
-        else:
-            print(f"Item: {url_name}, Ducats: {ducats}")
+        with open('warframe_data.json', 'w') as f:
+            json.dump(data, f, indent=4)
+        print("Dados atualizados com sucesso!")
+    else:
+        print(f"Não é meio-dia (horário atual: {current_time.hour}:{current_time.minute}). Nenhuma atualização realizada.")
 
-        # Atraso para respeitar o limite de taxa da API (3 chamadas por segundo)
-        time.sleep(0.333)
+def monitor_screen():
+    while True:
+        # Captura a tela
+        screenshot = sct.grab(monitor)
+        img = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
 
-        # Obter ordens do item
-        orders_url = f"{BASE_URL}/items/{url_name}/orders"
-        response = requests.get(orders_url)
-        response.raise_for_status()
-        orders_data = response.json()
-        
-        # Filtrar ordens de venda de jogadores online
-        sell_orders = [
-            order for order in orders_data['payload']['orders']
-            if order['order_type'] == 'sell' and order['user']['status'] == 'ingame'
-        ]
+        # Extrai o texto
+        text = pytesseract.image_to_string(img)
+        print("Texto extraído:", text)
 
-        # Encontrar o preço mais baixo em platina
-        lowest_price = min(order['platinum'] for order in sell_orders) if sell_orders else None
+        # Limpa o texto e busca no banco de dados
+        lines = text.split('\n')
+        items_found = []
+        with open('warframe_data.json', 'r') as f:
+            data = json.load(f)
+        for line in lines:
+            line = line.strip().lower()
+            if line:
+                for item in data:
+                    if item['url_name'].lower() in line:
+                        items_found.append(item['url_name'])
+                        break
 
-        # Armazenar os dados do item
-        data.append({
-            'url_name': url_name,
-            'ducats': ducats,
-            'lowest_sell_price': lowest_price
-        })
+        # Exibe os resultados
+        print("Itens identificados:", items_found)
+        for item in items_found:
+            plat = next((d['lowest_sell_price'] for d in data if d['url_name'] == item), "N/A")
+            ducats = next((d['ducats'] for d in data if d['url_name'] == item), 0)
+            print(f"Item: {item}, Platina: {plat}, Ducats: {ducats}")
 
-        # Atraso adicional para respeitar o limite de taxa
-        time.sleep(0.333)
+        # Aguarda 24 horas para a próxima verificação
+        time.sleep(86400)  # 86400 segundos = 24 horas
+        update_warframe_data()
 
-    except Exception as e:
-        print(f"Erro ao processar o item {url_name}: {e}")
-        continue
-
-# Salvar os dados em um arquivo JSON
-with open('warframe_data.json', 'w') as f:
-    json.dump(data, f, indent=4)
-
-print("Dados coletados e salvos com sucesso!")
+if __name__ == "__main__":
+    update_warframe_data()  # Atualiza imediatamente na primeira execução
+    monitor_screen()
