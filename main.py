@@ -21,6 +21,12 @@ os.environ["TESSDATA_PREFIX"] = r"C:\Users\01\AppData\Local\Programs\Tesseract-O
 sct = mss.mss()
 monitor = sct.monitors[1]  # Captura o monitor principal
 
+# Pré-processamento da imagem
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+_, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+text = pytesseract.image_to_string(thresh, config='--psm 6')  # PSM 6 para texto assumido
+print("Texto extraído:", text)
+
 # URL base da API do Warframe Market
 BASE_URL = "https://api.warframe.market/v1"
 
@@ -848,28 +854,22 @@ def update_warframe_data():
     else:
         print(f"Não é meio-dia (horário atual: {current_time.hour}:{current_time.minute}). Nenhuma atualização realizada.")
 
-def monitor_screen():
-    while True:
-        # Captura a tela
-        screenshot = sct.grab(monitor)
-        img = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
-
-        # Extrai o texto
-        text = pytesseract.image_to_string(img)
-        print("Texto extraído:", text)
-
-        # Limpa o texto e busca no banco de dados
-        lines = text.split('\n')
-        items_found = []
-        with open('warframe_data.json', 'r') as f:
-            data = json.load(f)
-        for line in lines:
-            line = line.strip().lower()
-            if line:
-                for item in data:
-                    if item['url_name'].lower() in line:
-                        items_found.append(item['url_name'])
-                        break
+# Limpa o texto e busca no banco de dados
+lines = [line.strip().lower() for line in text.split('\n') if line.strip()]
+items_found = []
+with open('warframe_data.json', 'r') as f:
+    data = json.load(f)
+for i in range(len(lines) - 1):  # Verifica pares de linhas
+    combined = f"{lines[i]} {lines[i + 1]}".strip()
+    for item in data:
+        if item['url_name'].lower() in combined:
+            items_found.append(item['url_name'])
+            break
+    # Verifica também linhas individuais
+    for item in data:
+        if item['url_name'].lower() in lines[i]:
+            items_found.append(item['url_name'])
+            break
 
         # Exibe os resultados
         print("Itens identificados:", items_found)
